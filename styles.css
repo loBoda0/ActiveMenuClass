@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 40px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  height: 100vh;
+  background-color: black;
+}
+
+section:nth-child(odd) {
+  background-color: beige;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 1px solid greenyellow;
+}
+
+h1 {
+  color: aquamarine;
+}
